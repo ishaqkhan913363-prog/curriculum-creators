@@ -1,96 +1,22 @@
 <!doctype html>
-<html lang="en"> 
- <head> 
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>CurricuForge</title> 
-  <link rel="stylesheet" href="style.css"> 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"> 
- </head> 
- <body> <!-- AI Animated Background --> 
-  <div id="particles-js"></div> <!-- HERO SECTION --> 
-  <section class="hero"> 
-   <h1>CurricuForge</h1> 
-   <h3>Generative AI Powered Curriculum Design System</h3> 
-   <p> An AI platform that automatically generates structured curriculum, course modules, assignments, and learning paths for teachers and students. </p> <button class="btn primary">Try Demo</button> <button class="btn secondary">Learn More</button> 
-  </section> <!-- ABOUT SECTION --> 
-  <section class="about container"> 
-   <h2>About CurricuForge</h2> 
-   <p> CurricuForge is an AI-powered curriculum design system that helps teachers, educators, and institutions generate structured learning programs instantly. Using generative AI, the platform creates course modules, assignments, weekly learning plans, and skill-based learning paths. </p> 
-  </section> <!-- FEATURES --> 
-  <section class="container"> 
-   <h2 class="center">Features</h2> 
-   <div class="features-grid"> 
-    <div class="card"> 
-     <h3>AI Curriculum Generator</h3> 
-     <p>Automatically generate full course curriculum.</p> 
-    </div> 
-    <div class="card"> 
-     <h3>Personalized Learning Paths</h3> 
-     <p>Create customized learning journeys.</p> 
-    </div> 
-    <div class="card"> 
-     <h3>Automated Assignment Creation</h3> 
-     <p>Generate quizzes and assignments instantly.</p> 
-    </div> 
-    <div class="card"> 
-     <h3>Smart Progress Analytics</h3> 
-     <p>Track student learning progress.</p> 
-    </div> 
-    <div class="card"> 
-     <h3>Industry Updated Curriculum</h3> 
-     <p>Stay aligned with modern industry needs.</p> 
-    </div> 
-   </div> 
-  </section> <!-- HOW IT WORKS --> 
-  <section class="container"> 
-   <h2 class="center">How It Works</h2> 
-   <div class="steps"> 
-    <div class="step"> 
-     <h3>Step 1</h3> 
-     <p>Enter course details.</p> 
-    </div> 
-    <div class="step"> 
-     <h3>Step 2</h3> 
-     <p>AI generates curriculum.</p> 
-    </div> 
-    <div class="step"> 
-     <h3>Step 3</h3> 
-     <p>Download or customize.</p> 
-    </div> 
-   </div> 
-  </section> <!-- DEMO GENERATOR --> 
-  <section class="demo container"> 
-   <h2>AI Curriculum Demo</h2> 
-   <form id="curriculumForm"> 
-    <input type="text" id="course" placeholder="Course Name" required> <select id="level"> <option>Beginner</option> <option>Intermediate</option> <option>Advanced</option> </select> 
-    <input type="text" id="duration" placeholder="Course Duration (weeks)" required> <button class="btn primary" type="submit"> Generate Curriculum </button> 
-   </form> 
-   <div id="result"></div> 
-  </section> <!-- TEAM --> 
-  <section class="container"> 
-   <h2 class="center">Team - Binary Hub</h2> 
-   <div class="team-grid"> 
-    <div class="member"> 
-     <h3>Member 1</h3> 
-     <p>AI Developer</p> 
-    </div> 
-    <div class="member"> 
-     <h3>Member 2</h3> 
-     <p>Frontend Developer</p> 
-    </div> 
-    <div class="member"> 
-     <h3>Member 3</h3> 
-     <p>Backend Developer</p> 
-    </div> 
-   </div> 
-  </section> <!-- FOOTER --> 
-  <footer> 
-   <p><b>CurricuForge</b></p> 
-   <p>Hackathon Project by Team curricuforge</p> 
-   <p>© 2026 curricuforge</p> 
-  </footer> <!-- Particles Library --> 
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
-  <script src="script.js"></script> 
- </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>CurriculumAI - AI-Powered Curriculum Design for Educators</title>
+    <meta name="description" content="Generate complete curricula, lesson plans, and assessments aligned with global standards using AI. Save weeks of planning time." />
+    <meta name="author" content="CurriculumAI" />
+
+    <meta property="og:title" content="CurriculumAI - AI-Powered Curriculum Design" />
+    <meta property="og:description" content="Generate complete curricula, lesson plans, and assessments aligned with global standards using AI." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
